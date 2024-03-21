@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ControleApplication<controle>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "escola.controle.ControleApplication",
+            "projectName": "controle",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
