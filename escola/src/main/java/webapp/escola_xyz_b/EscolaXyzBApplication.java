@@ -1,14 +1,13 @@
-package escola.controle;
+package webapp.escola_xyz_b;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ControleApplication {
+public class EscolaXyzBApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ControleApplication.class, args);
+		SpringApplication.run(EscolaXyzBApplication.class, args);
 	}
 
 }
- 
