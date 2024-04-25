@@ -1,3 +1,5 @@
+// VerificaCadastroAdmRepository.java
+
 package webapp.escola_xyz_b.Repository;
 
 import org.springframework.data.repository.CrudRepository;

@@ -1,3 +1,5 @@
+//Administrador.java
+
 package webapp.escola_xyz_b.Model;
 
 import java.io.Serializable;

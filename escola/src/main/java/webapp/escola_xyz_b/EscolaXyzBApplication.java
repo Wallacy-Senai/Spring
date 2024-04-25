@@ -1,3 +1,5 @@
+// EscolaXyzBApplication.java
+
 package webapp.escola_xyz_b;
 
 import org.springframework.boot.SpringApplication;

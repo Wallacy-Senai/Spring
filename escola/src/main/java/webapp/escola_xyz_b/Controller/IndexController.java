@@ -1,3 +1,5 @@
+//IndexController.java
+
 package webapp.escola_xyz_b.Controller;
 
 import org.springframework.stereotype.Controller;

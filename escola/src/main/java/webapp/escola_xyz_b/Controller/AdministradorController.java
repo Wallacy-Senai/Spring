@@ -1,3 +1,4 @@
+//AdministradorController.java
 package webapp.escola_xyz_b.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -67,3 +68,5 @@ public class AdministradorController {
     }
 
 }
+
+
