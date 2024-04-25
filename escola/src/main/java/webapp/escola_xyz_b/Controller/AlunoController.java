@@ -1,3 +1,5 @@
+package webapp.escola_xyz_b.Controller;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -45,8 +47,8 @@ public class AlunoController {
     public String acessoAluno(@RequestParam String matricula,
                                @RequestParam String senha) {
         try {
-            boolean verificaMatricula = alunoRepository.existsById(matricula);
-            boolean verificaSenha = alunoRepository.findByMatricula(matricula).getSenha().equals(senha);
+            boolean verificaMatricula = AlunoRepository.existsById(matricula);
+            boolean verificaSenha = AlunoRepository.findByMatricula(matricula).getSenha().equals(senha);
             String url = "";
             if (verificaMatricula && verificaSenha) {
                 acessoAluno = true;
