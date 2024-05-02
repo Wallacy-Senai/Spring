@@ -1,0 +1,12 @@
+>um model
+    -game
+>game controller
+    -listar games
+    -cadastrar novo game
+>game repository(interface)
+    -CRUD
+>index controller
+    -rotas de navegação
+>template
+    -gameadd.html
+    -gamelist.html
